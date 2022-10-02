@@ -59,7 +59,7 @@ a:hover {
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
-.bg-t-edge,
+/* .bg-t-edge, */
 .bg-b-edge,
 .bg-tl-edge,
 .bg-bl-edge,
@@ -76,9 +76,9 @@ a:hover {
     background: repeat;
 }
 
-.bg-t-edge {
+/* .bg-t-edge {
     background: top no-repeat;
-}
+} */
 
 .bloc-bg-texture::before {
     content: "";
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
