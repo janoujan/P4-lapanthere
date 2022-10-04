@@ -786,9 +786,9 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
+/* .tc-white {
     color: #F3976C !important;
-}
+} */
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -1091,4 +1091,13 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.text-center,
+.hero-bloc-text,
+.tc-white,
+.titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
