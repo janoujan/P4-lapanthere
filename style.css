@@ -205,7 +205,8 @@ a:hover {
 
 .d-bloc .panel button:focus,
 .l-bloc button:focus {
-    background-color: aqua;
+    box-shadow: 2px 4px 2px 1px lightgrey;
+    border: solid black 3px;
 }
 
 .l-bloc .icon-round,
@@ -327,19 +328,22 @@ a:hover {
     z-index: 1;
 }
 
+
+.navbar-nav .open .dropdown-menu>li>a {
+    text-align: inherit;
+}
+
 .nav>li {
     float: left;
     margin-top: 4px;
     font-size: 16px;
 }
 
-.navbar-nav .open .dropdown-menu>li>a {
-    text-align: inherit;
-}
-
 .nav>li a:hover,
 .nav>li a:focus {
-    background: aqua;
+    font-weight: bold;
+    border: solid black 3px;
+    box-shadow: 2px 4px 2px 1px lightgrey;
 }
 
 .navbar-toggle {
@@ -470,6 +474,8 @@ nav .caret {
 .btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);
+    border: 3px solid black;
+    box-shadow: 2px 4px 2px 1px lightgrey;
 }
 
 button {
@@ -792,16 +798,18 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF !important;
+    color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
     color: #FFFFFF !important;
+    border-bottom: 3px solid #b84c1a;
 }
 
 .btn-atomic-tangerine:focus {
-    background: aqua;
+    background: #F3976C;
+    border: 3px solid black;
+    box-shadow: 2px 4px 2px 1px lightgrey;
 }
 
 .ltc-white {
