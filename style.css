@@ -723,12 +723,13 @@ p {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+    font-size: 26px;
+    line-height: 1.6em;
+    font-weight: bold;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333 !important;
@@ -741,7 +742,7 @@ h3 {
 }
 
 h1 {
-    color: #333333 !important;
+    color: #F3976C !important;
 }
 
 h4 {
@@ -1108,4 +1109,22 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.col-sm-12.text-center {
+    flex-direction: column;
+}
+
+.col-sm-12.text-center>p {
+    font-size: 1.8rem;
+}
+
+.text-center {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.col-xs-12.col-md-8.col-md-offset-2.text-center {
+    flex-direction: column;
+    color: #000000;
 }
