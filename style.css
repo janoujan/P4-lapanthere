@@ -746,7 +746,9 @@ h3 {
 }
 
 h1 {
-    color: #F3976C !important;
+    color: #FFFFFF !important;
+    text-shadow: black 1px 1px;
+
 }
 
 h4 {
