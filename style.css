@@ -44,9 +44,9 @@ a:hover {
     padding-right: 0;
 }
 
-.bloc-lg {
+/* .bloc-lg {
     padding: 100px 50px;
-}
+} */
 
 .bloc-md {
     padding: 50px;
@@ -736,7 +736,7 @@ h3 {
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333 ;
+    color: #333333;
 }
 
 .med-width-whitespace {
@@ -1189,3 +1189,55 @@ h2.mg-md {
     font-size: x-large;
     color: #000000;
 }
+
+.text-center.hero-bloc-text.tc-white.titre.contact {
+    font-size: xx-large;
+    text-shadow: 1px 2px white;
+    font-weight: 800;
+    color: #000000 !important;
+}
+
+.text-center.hero-bloc-text.tc-white.titre.contact+p {
+    color: black;
+    font-size: 2rem;
+}
+
+#bloc-7>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#adresse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: large;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
