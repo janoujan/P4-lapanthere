@@ -16,6 +16,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    border-bottom: 4px solid #F3976C;
 }
 
 #page-loading-blocs-notifaction {
@@ -104,7 +105,8 @@ a:hover {
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, 0);
+    border-bottom: 4px solid;
 }
 
 .d-bloc .icon-round,
@@ -150,7 +152,8 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0);
+    border-bottom: 4px solid;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -308,6 +311,10 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+}
+
+.navbar-brand:focus {
+    border: 3px solid black;
 }
 
 .navbar-brand img {
@@ -802,9 +809,9 @@ h4 {
     background-color: #F3976C;
 }
 
- .tc-white {
-    color: #F3976C ;
-} 
+.tc-white {
+    color: #F3976C;
+}
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -1221,28 +1228,3 @@ h2.mg-md {
     font-size: large;
     font-weight: 800;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
