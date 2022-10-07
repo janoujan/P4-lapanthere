@@ -578,6 +578,10 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 
+a[data-lightbox]:focus img {
+    border: 3px solid black;
+}
+
 #lightbox-modal {
     display: flex;
     align-items: center;
@@ -590,7 +594,7 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    max-height: 190vh;
     margin: 0 auto;
 }
 
@@ -669,7 +673,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 ;
+    color: #575757;
 }
 
 .container {
@@ -1154,18 +1158,6 @@ p.mg-md {
     border: black solid 3px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.col-sm-14:focus {
+    border: 3px solid black;
+}
