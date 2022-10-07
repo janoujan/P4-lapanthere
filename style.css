@@ -1184,3 +1184,8 @@ h2.mg-md {
     justify-content: center;
     text-shadow: 1px 1px black;
 }
+
+.footer.text-center {
+    font-size: x-large;
+    color: #000000;
+}
