@@ -1228,3 +1228,15 @@ h2.mg-md {
     font-size: large;
     font-weight: 800;
 }
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
