@@ -1,0 +1,23 @@
+{
+  "name": "lapanthere",
+  "version": "1.0.0",
+  "description": "la panthere webdesign",
+  "main": "index.js",
+  "scripts": {
+   "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janoujan/lapanthere.git"
+  },
+  "keywords": [
+    "la",
+    "panthere"
+  ],
+  "author": "janoujan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janoujan/lapanthere/issues"
+  },
+  "homepage": "https://github.com/janoujan/lapanthere#readme"
+}
