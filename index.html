@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
+  <head>    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RL8TFYGEQC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RL8TFYGEQC');
+</script>
+
+    <meta charset="utf-8" >
      <meta
       name="description"
       content="<em>La panthère</em>, la meilleure agence de <em>webdesign</em> à <em>Lyon</em>.
     <br> Nous aidons les <em>entreprises</em> locales à devenir attractives et visibles sur internet.
     <br> Nous sommes expert dans la création des sites web pour votre succes."
-    />
+    >
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <link rel="icon" type="image/png" href="favicon.jpg" />
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
+    >
+    <link rel="icon" type="image/png" href="favicon.jpg" >
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" >
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" >
+    <link rel="stylesheet" type="text/css" href="./css/et-line.css" >
     <title>La panthère Webdesign</title>
     <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary" >
     <!-- Open Graph data pour FB -->
-    <meta property="og:title" content="La panthère" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://la-panthere.fr/" />
-    <meta property="og:image" content="img\logo.png" />
+    <meta property="og:title" content="La panthère" >
+    <meta property="og:type" content="website" >
+    <meta property="og:url" content="https://la-panthere.fr/" >
+    <meta property="og:image" content="img\logo.png" >
     <meta
       property="og:description"
       content="La panthère, nous sommes une agence de webdesign, basée à Lyon. Nous aidons les entreprises à devenir attractives et visibles sur internet"
-    />
-    <meta name="robots" content="index,follow" />
+    >
+    <meta name="robots" content="index,follow" >
   </head>
   <body>
     <!-- Principal conteneur -->
@@ -44,7 +54,7 @@
                   src="img/agence-la-panthere-monochrome.svg"
                   alt="logo de La panthère : entreprise de webdesign à Lyon"
                   height="40"
-                />
+                >
               </a>
               <button
                 id="nav-toggle"
@@ -93,9 +103,9 @@
                   class="center-block image-resize-mode"
                   width="100"
                   alt="Logo de La Panthère, agence web design Lyon"
-                />
+                >
                 <h1 class="text-center hero-bloc-text tc-white">
-                  La panthère<br />agence Webdesign<br />Lyon
+                  La panthère<br>agence Webdesign<br>Lyon
                 </h1>
                 <div class="text-center">
                   <a
@@ -151,7 +161,7 @@
                   Plutôt que de suggérer des designs à la mode, nous
                   travaillerons avec vous pour comprendre vos objectifs
                   commerciaux afin de vous proposer le meilleur design
-                  possible.<br />
+                  possible.<br>
                 </p>
               </div>
               <div class="col-sm-4">
@@ -189,7 +199,7 @@
         <!-- bloc-2-services END -->
 
         <!-- bloc-3-what-i-do -->
-        <section
+        <div
           class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax"
           id="bloc-3-what-i-do"
         >
@@ -201,12 +211,12 @@
           <div class="container bloc-lg">
             <div class="row tight-width-whitespace black-background">
               <div class="col-sm-12">
-                <p class="mg-md text-center tc-white">
+                <div class="mg-md text-center tc-white">
                   Nous souhaitons aider les entreprises de la région Lyonnaise à
                   se développer et à connaître le succès. Nous travaillons pour
                   aider les entreprises locales à attirer de nouveaux clients .
-                </p>
-                <p class="text-center white">
+                </div>
+                <div class="text-center white">
                   Nous aimons collaborer avec des entrepreneurs créatifs et des
                   entreprises locale, qu’elles aient besoin de créer un site de
                   A à Z ou de donner un coup de jeune à leur site. Que vous ayez
@@ -214,7 +224,7 @@
                   votre site, n’hésitez pas à nous contacter. Nous travaillerons
                   ensemble pour créer des sites beaux et biens structurés, qui
                   seront facilement trouvable sur les moteurs de recherche.
-                </p>
+                </div>
                 <a
                   class="ltc-white bold-link contactezNotreEquipe"
                   href="contact.html"
@@ -224,7 +234,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </div>
         <!-- bloc-3-what-i-do END -->
 
         <!-- bloc-4-portfolio -->
@@ -241,13 +251,13 @@
             <header class="row">
               <div class="col-sm-12 text-center">
                 <h2>Portfolio</h2>
-                <p>
+                <h4>
                   Nous travaillons avec beaucoup de clients, voici nos
                   réalisations.
-                </p>
+                </h4>
               </div>
             </header>
-            <section class="row tight-width-whitespace portfolio-row">
+            <div class="row tight-width-whitespace portfolio-row">
               <article id="journal_local" class="col-sm-6">
                 <a
                   href="#journal_local"
@@ -261,11 +271,11 @@
                     src="img/portfolio_journal_local.jpg"
                     alt="refonte de site web pour un journal local"
                     class="img-responsive portfolio-thumb"
-                  />
+                  >
                 </a>
                 <h3 class="mg-md text-center">
-                  Refonte<br />
-                  de site web<br />
+                  Refonte<br>
+                  de site web<br>
                 </h3>
                 <p class="text-center">
                   Nous avons créé une nouvelle identité visuelle pour un journal
@@ -285,9 +295,9 @@
                     src="img/portfolio_site_photographe.jpg"
                     class="img-responsive portfolio-thumb"
                     alt="Création d'un site web pour photographes"
-                /></a>
+                ></a>
                 <h3 class="mg-md text-center">
-                  Création<br />
+                  Création<br>
                   de plateforme web
                 </h3>
                 <p class="text-center">
@@ -296,8 +306,8 @@
                   photographes.
                 </p>
               </article>
-            </section>
-            <section class="row tight-width-whitespace portfolio-row">
+            </div>
+            <div class="row tight-width-whitespace portfolio-row">
               <article class="col-sm-6" id="site_voyageur">
                 <a
                   href="#site_voyageur"
@@ -311,9 +321,9 @@
                     src="img/portfolio_site_voyageur.jpg"
                     class="img-responsive portfolio-thumb"
                     alt="Création d'un site web pour voyageur"
-                /></a>
+                ></a>
                 <h3 class="mg-md text-center">
-                  Création<br />
+                  Création<br>
                   de site internet
                 </h3>
                 <p class="text-center">
@@ -335,7 +345,7 @@
                     src="img/portfolio_agence_mariage.jpg"
                     class="img-responsive portfolio-thumb"
                     alt="Création d'un site web pour agence de mariage"
-                /></a>
+                ></a>
                 <h3 class="mg-md text-center">
                   Conception de site pour une agence de mariage
                 </h3>
@@ -345,7 +355,7 @@
                   prestations.
                 </p>
               </article>
-            </section>
+            </div>
           </div>
         </section>
         <!-- bloc-4-portfolio END -->
@@ -386,7 +396,7 @@
           <div class="row">
             <div class="col-sm-12">
               <p class="footer text-center">
-                Agence La Panthère - Agence web basée à Lyon.<br />
+                Agence La Panthère - Agence web basée à Lyon.<br>
               </p>        
              <div class="row row-no-gutters social">
               <div class="col-sm-3">
@@ -418,6 +428,7 @@
                 </div>
               </div>
             </div>
+           </div>
           </div>
         </div>
       </footer>
@@ -425,25 +436,11 @@
 
     <!-- Footer - bloc-8 END -->
     <!-- Principal conteneur END -->
-  </body>
-  <!-- Analytics -->
-  <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-RL8TFYGEQC"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "G-RL8TFYGEQC");
-  </script>
-  <!-- Analytics END -->
   <script src="./js/jquery-2.1.0.js"></script>
   <script src="./js/bootstrap.js"></script>
   <script src="./js/blocs.js"></script>
   <script src="./js/jquery.touchSwipe.js" defer></script>
   <script src="./js/gmaps.js"></script>
+  </body>
+  
 </html>
