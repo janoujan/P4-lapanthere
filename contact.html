@@ -55,16 +55,19 @@
                   alt="atlanta web design logo"
                   height="40"
               ></a>
-              <button
+
+                 <button
                 id="nav-toggle"
                 type="button"
                 class="ui-navbar-toggle navbar-toggle"
                 data-toggle="collapse"
-                data-target=".navbar-1">
+                data-target=".navbar-1"
+              >
                 <span class="sr-only">Toggle navigation</span
                 ><span class="icon-bar"></span><span class="icon-bar"></span
                 ><span class="icon-bar"></span>
               </button>
+
             </div>
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
               <ul class="site-navigation nav navbar-nav">
@@ -113,31 +116,34 @@
               <div class="col-sm-6">
                 <form id="form_1" novalidate>
                   <div class="form-group">
-                    <label> Nom </label>
-                    <input id="name" class="form-control" required >
+                    <label for="name"> Nom </label>
+                    <input type="text" name="name" id="name" class="form-control"  required >
                   </div>
                   <div class="form-group">
-                    <label> Adresse email </label>
+                    <label for="email"> Adresse email </label>
                     <input
                       id="email"
                       class="form-control"
                       type="email"
+                      name="email"
                       required >
                   </div>
                   <div class="form-group">
-                    <label> Comment nous avez-vous connu ? </label>
+                    <label for="question"> Comment nous avez-vous connu ? </label>
                     <input
                       class="form-control"
-                      type="email"
+                      type="textarea"
                       required
-                      id="input_504" >
+                      id="question"
+                      name="question" >
                   </div>
                   <div class="form-group">
-                    <label>
+                    <label for="message">
                       Brief de votre projet (Ajoutez autant de détails que
                       nécessaire)</label
                     ><textarea
                       id="message"
+                      name="message"
                       class="form-control"
                       rows="4"
                       cols="50"
@@ -181,28 +187,28 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a id="twitter" class="social" href="https://twitter.com"
+                    <a id="twitter" class="social" href="https://twitter.com" aria-label="liens vers Twitter"
                       ><span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="https://facebook.com"
+                    <a class="social" href="https://facebook.com" aria-label="liens vers Facebook"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="https://dribbble.com/"
+                    <a class="social" href="https://dribbble.com/" aria-label="liens vers Drible"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="https://www.instagram.com/"
+                    <a class="social" href="https://www.instagram.com/" aria-label="liens vers Instagram"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
@@ -214,6 +220,11 @@
       </footer>
       <!-- Footer - bloc-8 END -->
     </div>
+    <script src="./js/jquery-2.1.0.js"></script>
+    <script src="./js/blocs.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/gmaps.js"></script>
+    <script src="./js/jquery.touchSwipe.js" defer></script>
     <!-- Principal conteneur END -->
   </body>
 </html>
