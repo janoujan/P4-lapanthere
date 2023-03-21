@@ -75,7 +75,7 @@ With all this information in mind, you get to work immediately!
 
 SEO  
 WCAG 2.1  
-how to do Report an audit    
+Reporting an auditing    
 Ensuring the accessibility of a website  
 Research best practices in web development  
 Optimize the SEO of a website  
