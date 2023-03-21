@@ -9,11 +9,14 @@
 
 ## Scenario and requirements
 
-You work for the La Panthère agency, a large web design agency based in Lyon. The company's activity got off to a good start, but today it is losing momentum. Yes, the competition is fierce. The founder of the company, Sophie, is looking for a solution to restart the activity. By typing “Entreprise web design Lyon” on the Internet, she realizes that the agency’s site only appears on the second page of search engines. Luckily, one of your colleagues, Martin, told him that you were an SEO specialist.  
+You work for "La Panthère agency", a large web design agency based in Lyon. The company's activity got off to a good start, but today it is losing momentum. Yes, the competition is fierce.  
+The founder of the company, Sophie, is looking for a solution to restart the activity.   
+By typing “Entreprise web design Lyon” on the Internet, she realizes that the agency’s site only appears on the second page of search engines.   Luckily, one of your colleagues, Martin, told him that you were an SEO specialist.    
 
-Sophie invites you to a meeting to clarify the scope of the mission. Here is the report of this meeting.  
+Sophie invites you to a meeting to clarify the scope of the mission.  
+Here is the report of this meeting.    
 
-Minutes - kick-off meeting "Improving SEO"  
+#### Minutes - kick-off meeting "Improving SEO"    
 
   From: Sophie V  
 
@@ -27,7 +30,7 @@ To follow up on our meeting earlier, here is a report of what was decided.
 
 As a reminder, our site only appears on the second page of search engines. For this, I would like our referencing to be improved.  
 
-Here are the things you need to work on:  
+Here are the things you need to work on 
 
      1. Analysis of the current SEO status of the site provided.  
      I would like you to indicate the parts of the site which are not optimized for SEO and/or which are not up to date in terms of accessibility, and that you justify your choices. Remember to add the best practice to put in place for each part of the site that is not optimized, citing your sources. You will find attached a model to carry out your analysis. Once this template is completed, I would like you to select at least 10 recommendations to improve the site. I let you tick these 10 recommendations chosen in the column “Recommended action”.  
