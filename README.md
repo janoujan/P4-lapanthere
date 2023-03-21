@@ -70,11 +70,8 @@ With all this information in mind, you get to work immediately!
 
 [link to model](/model.zip)
 
-## personal toughts:
 
-
-
-### What I learned
+## What I learned
 
 SEO  
 WCAG 2.1  
