@@ -85,4 +85,4 @@ Write maintainable HTML and CSS
 
 ## site
 
-un can visit a demo of the site [here](https://janoujan.github.io/lapanthere/)
+un can visit a demo of the site [here](https://janoujan.github.io/P4-lapanthere/)
